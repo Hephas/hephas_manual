@@ -26,3 +26,7 @@ nav:
     - 首頁: zh/index.md
   - English:
     - Home: en/index.md
+    
+# 載入自訂的翻譯腳本
+extra_javascript:
+  - javascripts/translate.js
