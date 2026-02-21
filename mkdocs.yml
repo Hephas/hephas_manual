@@ -1,24 +1,27 @@
 site_name: 產品手冊與計算工具 | Product Manual
+site_url: https://hephas.github.io/hephas_manual/
+
 theme:
   name: material
   palette:
-    primary: blue grey # 您可以改顏色，例如 indigo, red, green
-  language: zh-TW      # 預設介面語言
+    primary: blue grey
+  language: zh-TW
   features:
-    - navigation.tabs  # 啟用上方頁籤
+    - navigation.tabs
 
-# 這裡設定雙語切換按鈕
+# 雙語切換按鈕 (加上了完整子目錄路徑)
 extra:
   alternate:
     - name: 繁體中文
-      link: /zh/
+      link: /hephas_manual/zh/
       lang: zh-TW
     - name: English
-      link: /en/
+      link: /hephas_manual/en/
       lang: en
 
-# 這裡設定左側目錄
+# 左側目錄結構
 nav:
+  - 選擇語言 Language: index.md
   - 繁體中文:
     - 首頁: zh/index.md
   - English:
