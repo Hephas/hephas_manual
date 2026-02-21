@@ -24,6 +24,7 @@ nav:
   - 選擇語言 Language: index.md
   - 繁體中文:
     - 首頁: zh/index.md
+    - 一般說明: zh/general.md
   - English:
     - Home: en/index.md
     
